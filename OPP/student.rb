@@ -24,18 +24,4 @@ end
 
 
 
-arr = [Student.new(10,5,8,"Hoa","Đen",150,70,18,"0123456789","hoa@1234","Kinh"),
-        Student.new(7,5,8,"Hoa","male",150,70,18,"0123456789","hoa@1234","Kinh"),
-        Student.new(10,5,7,"Hoa","male",150,70,18,"0123456789","hoa@1234","Kinh"),
-        Student.new(10,9,8,"Hoa","male",150,70,18,"0123456789","hoa@1234","Kinh"),
-]
-
-puts "Danh sách chưa sắp xếp : \n",arr,"\n"
-
-
-arr_sorted = arr.sort_by { |item| -item.average_grade() }
-puts "Danh sách đã sắp xếp : \n",arr_sorted
-
-
-
 
